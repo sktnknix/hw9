@@ -57,6 +57,7 @@ def find_by_date_rate(db): ### ищем февральских
         print((doc['Исполнитель'] + ' | ' + str(doc['Цена']) + ' | ' +
                doc['Место'] + ' | ' + f"{doc['Дата']:%d-%m-%Y}"))
 
+               
 if __name__ == '__main__':
 #   read_data('artists.csv', 'zzz')
 #   find_cheapest('zzz')
